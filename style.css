@@ -1,4 +1,18 @@
 body{
   background: #264653;
   background:linear-gradient(90deg, rgba(38, 70, 83, 1) 0%, rgba(42, 157, 143, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  background-attachment: fixed;
+}
+main{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  padding: 0;
+}
+
+.comment{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #0d6599;
+  text-align:center;
 }
