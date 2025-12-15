@@ -3,16 +3,55 @@ body{
   background:linear-gradient(90deg, rgba(38, 70, 83, 1) 0%, rgba(42, 157, 143, 1) 50%, rgba(237, 221, 83, 1) 100%);
   background-attachment: fixed;
 }
+
 main{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
   text-align: center;
-  margin: 10px;
+  margin: 5rem;
   padding: 0;
+  background-color: #64646480;
 }
 
+img{
+  width: auto;
+  height: auto;
+  border: 0.5rem solid #ffffff;
+  margin: 1rem;
+}
+hr{
+  border: 0.5rem solid #ffffff;
+  opacity:0.5;
+}
+a{
+  color: #e76f51;
+  text-decoration: none;
+  font-family: monospace;
+}
+title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
 .comment{
   font-family: 'Courier New', Courier, monospace;
   background-color: #0d6599;
   text-align:center;
+  display:inline;
+}
+.navbar{
+  text-align:right;
+  background-color: #64646480;
+  margin-left:75;
+}
+.navbar li{
+  display:inline-block;
+  list-style: none;
+  background-color: #00b994;
+  padding:1em;
+}
+
+.floatimg{
+  float:right;
+  margin: 0 0 1rem 1rem;
+   border:none;
 }
