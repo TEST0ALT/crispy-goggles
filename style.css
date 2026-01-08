@@ -7,9 +7,8 @@ body{
 main{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
-  text-align: center;
-  margin: 5rem;
-  padding: 0;
+  text-align: left;
+  padding: 5rem;
   background-color: #64646480;
 }
 
@@ -27,6 +26,7 @@ a{
   color: #e76f51;
   text-decoration: none;
   font-family: monospace;
+  
 }
 title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,7 +47,9 @@ title{
   display:inline-block;
   list-style: none;
   background-color: #00b994;
-  padding:1em;
+  padding: 0.5em;
+  font-size:25px;
+  margin:0.5em 0.5em 0.5em 0em;
 }
 
 .floatimg{
