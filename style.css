@@ -32,6 +32,26 @@ title{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #ffffff;
 }
+table, tr, th, td{
+  border-collapse: collapse;
+  border:3px solid black;
+}
+table{
+border:4px solid black;
+background-color:rgb(26, 214, 176, 0.75);
+}
+td{
+
+  padding:10px;
+}
+tr{
+  text-align:center;
+}
+th{
+
+  background-color:rgb(15, 106, 88,0.75);
+}
+
 .comment{
   font-family: 'Courier New', Courier, monospace;
   background-color: #0d6599;
